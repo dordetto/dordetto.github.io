@@ -1,1 +1,229 @@
-test
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fabio Dordetto | Full Stack Software Engineer</title>
+    <meta
+      name="description"
+      content="Fabio Dordetto – Full Stack Software Engineer with 20+ years of experience in technology."
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --bg: #0f172a;
+        --card: #111827;
+        --text: #e5e7eb;
+        --muted: #9ca3af;
+        --accent: #38bdf8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family:
+          "Inter",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          sans-serif;
+        background:
+          radial-gradient(1200px 600px at 20% -10%, #1e293b, transparent),
+          var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 4rem 1.5rem;
+      }
+
+      header {
+        display: grid;
+        gap: 1.5rem;
+        margin-bottom: 3rem;
+      }
+
+      h1 {
+        font-size: clamp(2.2rem, 4vw, 3rem);
+        font-weight: 700;
+        margin: 0;
+        letter-spacing: -0.02em;
+      }
+
+      h2 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: var(--muted);
+        margin: 0;
+      }
+
+      .badge {
+        display: inline-block;
+        padding: 0.35rem 0.75rem;
+        border-radius: 999px;
+        background: rgba(56, 189, 248, 0.15);
+        color: var(--accent);
+        font-size: 0.85rem;
+        font-weight: 500;
+        width: fit-content;
+      }
+
+      section {
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.03),
+          rgba(255, 255, 255, 0)
+        );
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 16px;
+        padding: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      p {
+        margin-top: 0;
+        color: var(--text);
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem;
+        margin-top: 1rem;
+      }
+
+      .skill {
+        background: #020617;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 0.4rem 0.7rem;
+        border-radius: 8px;
+        font-size: 0.85rem;
+        color: #e5e7eb;
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1.5rem;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.75rem 1.1rem;
+        border-radius: 10px;
+        background: #020617;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        color: var(--text);
+        text-decoration: none;
+        font-size: 0.95rem;
+        font-weight: 500;
+        transition: all 0.2s ease;
+      }
+
+      .btn:hover {
+        border-color: var(--accent);
+        transform: translateY(-1px);
+      }
+
+      footer {
+        margin-top: 3rem;
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.85rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <span class="badge">Full Stack Software Engineer</span>
+        <h1>Fabio Dordetto</h1>
+        <h2>
+          Web & Mobile Applications · React · Vue · Node.js · React Native
+        </h2>
+      </header>
+
+      <section>
+        <p>
+          I am a technology professional with over
+          <strong>20 years of experience</strong>, combining a strong background
+          in IT infrastructure and leadership with modern software engineering.
+          Over the last several years, I have focused entirely on building
+          <strong>scalable web and mobile applications</strong>
+          using JavaScript, React, Vue 3, React Native, Node.js, and SQL-based
+          databases, deployed on AWS.
+        </p>
+        <p class="muted">
+          Most recently, I worked as a Software Engineer at Pathwise (formerly
+          TransACT Communications), contributing to large-scale platforms used
+          by K–12 school districts across the United States, in agile,
+          self-managed teams.
+        </p>
+      </section>
+
+      <section>
+        <h3>Core Skills</h3>
+        <div class="skills">
+          <span class="skill">JavaScript / TypeScript</span>
+          <span class="skill">React</span>
+          <span class="skill">Vue 3</span>
+          <span class="skill">Node.js</span>
+          <span class="skill">React Native</span>
+          <span class="skill">Expo</span>
+          <span class="skill">SQL / MySQL</span>
+          <span class="skill">Prisma ORM</span>
+          <span class="skill">AWS (EC2, RDS, S3)</span>
+          <span class="skill">Docker</span>
+          <span class="skill">Scrum / Agile</span>
+        </div>
+      </section>
+
+      <section>
+        <h3>Links</h3>
+        <div class="links">
+          <a
+            class="btn"
+            href="https://www.linkedin.com/in/dordetto"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          >
+          <a
+            class="btn"
+            href="https://github.com/dordetto"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+          <a class="btn" href="#" target="_blank" rel="noopener"
+            >App Store (iOS)</a
+          >
+          <a class="btn" href="#" target="_blank" rel="noopener">Google Play</a>
+        </div>
+      </section>
+
+      <footer>© 2026 Fabio Dordetto · Metro Vancouver, BC</footer>
+    </main>
+  </body>
+</html>
