@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Download CardRush English</title>
+
+    <meta
+      name="description"
+      content="CardRush English is a fun flash card game to learn English vocabulary. Play with images and words and improve your language skills on iOS and Android."
+    />
+
+    <meta
+      name="keywords"
+      content="learn english, flash cards, english vocabulary, english learning game, educational game, learn english app"
+    />
+
+    <meta name="author" content="Fabio Dordetto" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://dordetto.github.io/cardrush" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="CardRush English – Learn English with Flash Cards"
+    />
+    <meta
+      property="og:description"
+      content="A fun and fast flash card game to learn English vocabulary. Choose the correct image or word and improve your language skills."
+    />
+    <meta property="og:url" content="https://dordetto.github.io/cardrush" />
+    <meta
+      property="og:image"
+      content="https://dordetto.github.io/cardrush/og-image.png"
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="CardRush English – Vocabulary Flash Card Game"
+    />
+    <meta
+      name="twitter:description"
+      content="Learn English vocabulary with a fun flash card game. Available on iOS and Android."
+    />
+    <meta
+      name="twitter:image"
+      content="https://dordetto.github.io/cardrush/og-image.png"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+          Arial, sans-serif;
+        margin: 0;
+        background: #f8f9fb;
+        color: #222;
+      }
+
+      .container {
+        max-width: 820px;
+        margin: 80px auto;
+        padding: 24px;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.4rem;
+        margin-bottom: 12px;
+      }
+
+      p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #555;
+        max-width: 640px;
+        margin: 0 auto;
+      }
+
+      .buttons {
+        margin-top: 36px;
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+
+      .store-btn img {
+        width: 160px;
+        height: auto;
+      }
+
+      .qr-section {
+        margin-top: 48px;
+      }
+
+      .qr-section img {
+        width: 180px;
+        border-radius: 12px;
+        background: #fff;
+        padding: 12px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+      }
+
+      .footer {
+        margin-top: 48px;
+        font-size: 0.9rem;
+        color: #888;
+      }
+    </style>
+
+    <!-- Auto redirect to stores -->
+    <script>
+      const ua = navigator.userAgent || navigator.vendor || window.opera;
+
+      if (/android/i.test(ua)) {
+        window.location.replace(
+          "https://play.google.com/store/apps/details?id=com.dordetto.cardrush",
+        );
+      } else if (/iPad|iPhone|iPod/.test(ua)) {
+        window.location.replace("https://apps.apple.com/app/idXXXXXXXXX");
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>CardRush English</h1>
+
+      <p>
+        CardRush English is a fun and fast flash card game to learn English
+        vocabulary. Match words with images and improve your language skills
+        while playing.
+      </p>
+
+      <div class="buttons">
+        <a href="https://apps.apple.com/app/idXXXXXXXXX" target="_blank">
+          <img
+            src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+            alt="Download on the App Store"
+          />
+        </a>
+
+        <a
+          href="https://play.google.com/store/apps/details?id=com.dordetto.cardrush"
+          target="_blank"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+            alt="Get it on Google Play"
+          />
+        </a>
+      </div>
+
+      <div class="qr-section">
+        <h3>Scan to download</h3>
+
+        <img
+          src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://dordetto.github.io/cardrush"
+          alt="Download CardRush English QR Code"
+        />
+      </div>
+
+      <div class="footer">
+        CardRush English · Learn English with Flash Cards · iOS & Android
+      </div>
+    </div>
+  </body>
+</html>
